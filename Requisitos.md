@@ -8,7 +8,7 @@
 
 ## Requisitos generales:
 
-### Integrante 1 -> Integrante 2 (R 1 - 9, 11) 
+### Joaco -> Nico (R 1 - 9, 11) 
  1. [ ] El sistema debe permitir que el administrador del sistema cree cuentas de
 evaluador en el sistema, solicitando el nombre, apellido, correo electrónico y
 generando al azar la contraseña del usuario.
@@ -33,13 +33,13 @@ realización de curso debe ser única en el sistema.
 usuario, ordenados por fecha (más nuevos al inicio de la lista), indicando el
 curso asociado, cuales están pendientes y cuales ya fueron contestadas.
 
-### Clemente -> Integrante 1 (R 16)
+### Clemente -> Joaco (R 16)
  16. [ ]  El usuario puede acceder a la ficha de una evaluación desde el resumen de las
 evaluaciones.
 
 ## Ficha de una evaluación:
 
-### Integrante 2 -> Claudio (R 28 - 37)
+### Nico -> Claudio (R 28 - 37)
 28. [ ] El sistema debe indicar el curso asociado a la evaluación, el estado de la
 evaluación (abierta, cerrada), las fechas de inicio y fin, duración esperada de las
 presentaciones y la rúbrica asociada.
@@ -62,7 +62,7 @@ registrado la evaluación de un equipo.
 37. [ ] Si la evaluación aún está abierta, en el caso del administrador se debe mostrar
 un listado de los equipos cuya evaluación aún está pendiente.
 
-### Clemente -> Integrante 1 (R 38 - 45)
+### Clemente -> Joaco (R 38 - 45)
 38. [ ] Si la evaluación aún está abierta, el administrador puede elegir uno de los
 equipos cuya evaluación está pendiente, para comenzar su evaluación.
 39. [ ] Al comenzar la evaluación de un equipo, en el caso del administrador, el sistema

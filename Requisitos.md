@@ -2,7 +2,7 @@
 - [ ] No testeado
 - [x] Test exitoso
 - :x: Test fallido
-A -> B (R n) A diseña los test para los requisitos n y B los ejecuta
+- A -> B (R n) A diseña los test para los requisitos n y B los ejecuta
 
 # 2019-1-Electronic-Operations-T5
 # Requisitos a testear:

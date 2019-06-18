@@ -1,0 +1,4 @@
+- Primero crear un usuario desde el admin tira error de django automatico.
+- Al acceder como profesor, se puede borrar a si mismo.
+- Al acceder como super usuario de django, al apretar mi nombre se cae el sistema.
+- 

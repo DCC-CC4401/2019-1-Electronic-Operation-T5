@@ -8,7 +8,6 @@
 # Requisitos a testear:
 
 ## Requisitos generales:
-
 ### Joaco -> Nico (R 1 - 9, 11) 
  1. [ ] El sistema debe permitir que el administrador del sistema cree cuentas de
 evaluador en el sistema, solicitando el nombre, apellido, correo electrónico y
@@ -25,12 +24,12 @@ de realización.
 realización de curso debe ser única en el sistema.
  8. [ ] Un curso puede tener más de un evaluador.
  9. [ ] Dentro de un curso, cada estudiante debe pertenecer a un equipo de trabajo.
-
+ Clave: mzbVtuMXzz
 
  11. [ ] Cada curso puede tener cero o más evaluaciones.
 
 ### Claudio -> Clemente (R 15)
- 15. [ ]  El sistema debe mostrar un listado de las últimas 10 evaluaciones asociadas al
+ 15. :x:1  El sistema debe mostrar un listado de las últimas 10 evaluaciones asociadas al
 usuario, ordenados por fecha (más nuevos al inicio de la lista), indicando el
 curso asociado, cuales están pendientes y cuales ya fueron contestadas.
 
@@ -83,22 +82,22 @@ base a la duración mínima y máxima asociada a la rúbrica aplicada.
 ## Ficha de una rubrica:
 
 ### Claudio -> Clemente (R 47 - 51)
-47. [ ] El sistema debe mostrar los aspectos a evaluar, como también los niveles de
+47. [x] El sistema debe mostrar los aspectos a evaluar, como también los niveles de
 cumplimiento y los puntajes asociados.
-48. [ ] En el caso del administrador, el sistema debe permitir agregar, quitar o modificar
+48. [x] En el caso del administrador, el sistema debe permitir agregar, quitar o modificar
 aspectos a evaluar.
-49. [ ] En el caso del administrador, el sistema debe permitir agregar, quitar o modificar
+49. [x] En el caso del administrador, el sistema debe permitir agregar, quitar o modificar
 niveles de cumplimiento para un aspecto a evaluar.
-50. [ ] En el caso del administrador, el sistema debe permitir indicar las duraciones
+50. :x:1 En el caso del administrador, el sistema debe permitir indicar las duraciones
 mínimas y máximas de las presentaciones que serán evaluadas.
-51. [ ] El sistema debe validar que la suma de los niveles máximos de los todos los
+51. :x:1 El sistema debe validar que la suma de los niveles máximos de los todos los
 aspectos de cualquier rúbrica siempre sea 6.
 
 ## Landing page admin:
 
 ### Claudio -> Clemente (R 61, 64, 65)
-61. [ ] El sistema debe permitir la gestión (creación, modificación y eliminación) de evaluadores.
-64. [ ] El sistema debe permitir la gestión (creación, modificación y eliminación) de
+61. :x:3 El sistema debe permitir la gestión (creación, modificación y eliminación) de evaluadores.
+64. :x:3 El sistema debe permitir la gestión (creación, modificación y eliminación) de
 evaluaciones.
-65. [ ] El sistema debe permitir la gestión (creación, modificación y eliminación) de
+65. [x] El sistema debe permitir la gestión (creación, modificación y eliminación) de
 rubricas.

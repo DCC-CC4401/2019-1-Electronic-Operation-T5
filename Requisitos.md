@@ -24,7 +24,7 @@ de realización.
 realización de curso debe ser única en el sistema.
  8. [ ] Un curso puede tener más de un evaluador.
  9. [ ] Dentro de un curso, cada estudiante debe pertenecer a un equipo de trabajo.
- Clave: mzbVtuMXzz
+ 
 
  11. [ ] Cada curso puede tener cero o más evaluaciones.
 

@@ -11,7 +11,6 @@
 - Asigne alumnos al curso y asignelos a un grupo
 - Agregue evaluaciones a el curso
 - Agregue un curso repetido (si el sistema no deja )
-- Edite el curso para tener un curso repetido.
 ## Combinacion para no poder borrar evaluador o profesor (Cheat para profesores/evaluadores infinitos)
 - Cree un profesor con nombre y apellido y un correo (por ejemplo: pmiranda@gmail.com, Pablo Miranda)
 - Cree un evaluador con mismo nombre y apellido pero mail distinto:

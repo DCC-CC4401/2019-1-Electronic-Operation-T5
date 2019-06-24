@@ -17,7 +17,7 @@ electrónico y su contraseña.
  3. :x:2 No se puede crear más de una cuenta en el sistema con el mismo correo
 electrónico.
  4. [x] El sistema debe considerar 2 tipos de usuarios: administrador, y evaluador.
- 5. [ ] El administrador también puede evaluar presentaciones.
+ 5. [x] El administrador también puede evaluar presentaciones.
  6. [x] Cada curso debe tener un nombre, código, número de sección, y año y semestre
 de realización.
  7. [x] Cada combinación de código, número de sección, y año y semestre de
@@ -31,7 +31,7 @@ realización de curso debe ser única en el sistema.
  15. :x:1  El sistema debe mostrar un listado de las últimas 10 evaluaciones asociadas al usuario, ordenados por fecha (más nuevos al inicio de la lista), indicando el curso asociado, cuales están pendientes y cuales ya fueron contestadas.
 
 ### Clemente -> Joaco (R 16)
- 16. [ ]  El usuario puede acceder a la ficha de una evaluación desde el resumen de las evaluaciones.
+ 16. :x:1  El usuario puede acceder a la ficha de una evaluación desde el resumen de las evaluaciones.
 
 ## Ficha de una evaluación:
 
@@ -40,23 +40,23 @@ realización de curso debe ser única en el sistema.
 29. [x] En el caso del administrador, el sistema debe permitir actualizar los plazos de una evaluación, sin perder las evaluaciones que ya fueron realizadas por los evaluadores.
 30. [x] En el caso del administrador, el sistema debe mostrar una lista de los evaluadores asociados a la evaluación.
 31. [x] El administrador puede agregar o quitar evaluadores antes de abrir la evaluación a los evaluadores.
-32. [ ] Una vez iniciada una evaluación, el administrador solo puede quitar evaluadores asociados que no han ingresado notas.
-33. [ ] Una vez iniciada una evaluación, el administrador puede agregar nuevos evaluadores.
-34. [ ] El sistema debe mostrar la rúbrica asociada a la evaluación.
-35. [ ] El administrador puede editar la rúbrica asociada a una evaluación antes de abrir la evaluación a los evaluadores.
-36. [ ] No se podrá modificar la rúbrica de una evaluación después de que se haya registrado la evaluación de un equipo.
-37. [ ] Si la evaluación aún está abierta, en el caso del administrador se debe mostrar un listado de los equipos cuya evaluación aún está pendiente.
+32. :x:1 Una vez iniciada una evaluación, el administrador solo puede quitar evaluadores asociados que no han ingresado notas.
+33. :x:1 Una vez iniciada una evaluación, el administrador puede agregar nuevos evaluadores.
+34. [x] El sistema debe mostrar la rúbrica asociada a la evaluación.
+35. [x] El administrador puede editar la rúbrica asociada a una evaluación antes de abrir la evaluación a los evaluadores.
+36. :x:1 No se podrá modificar la rúbrica de una evaluación después de que se haya registrado la evaluación de un equipo.
+37. :x:1 Si la evaluación aún está abierta, en el caso del administrador se debe mostrar un listado de los equipos cuya evaluación aún está pendiente.
 
 ### Clemente -> Joaco (R 38 - 45)
-38. [ ] Si la evaluación aún está abierta, el administrador puede elegir uno de los equipos cuya evaluación está pendiente, para comenzar su evaluación.
-39. [ ] Al comenzar la evaluación de un equipo, en el caso del administrador, el sistema debe mostrar quiénes del equipo han presentado y quienes no. El administrador debe indicar los nombres de los estudiantes que presentaran.
-40. [ ] Una vez iniciada una evaluación, los evaluadores asociados solo podrán
+38. [x] Si la evaluación aún está abierta, el administrador puede elegir uno de los equipos cuya evaluación está pendiente, para comenzar su evaluación.
+39. [x] Al comenzar la evaluación de un equipo, en el caso del administrador, el sistema debe mostrar quiénes del equipo han presentado y quienes no. El administrador debe indicar los nombres de los estudiantes que presentaran.
+40. :x:2 Una vez iniciada una evaluación, los evaluadores asociados solo podrán
 ingresar puntajes al equipo seleccionado por el administrador.
-41. [ ] En cada evaluación de equipo, los evaluadores deben indicar puntajes para todos los aspectos de la rúbrica.
-42. [ ] Para finalizar una evaluación, el usuario debe confirmar los puntajes ingresados.
-43. [ ] Si un usuario no está de acuerdo con los puntajes ingresados, debe poder actualizar los puntajes ingresados.
-44. [ ] Solo el administrador puede indicar el tiempo que demoró una presentación.
-45. [ ] El sistema debe indicar si corresponde aplicar un descuento a un equipo, en base a la duración mínima y máxima asociada a la rúbrica aplicada.
+41. [x] En cada evaluación de equipo, los evaluadores deben indicar puntajes para todos los aspectos de la rúbrica.
+42. [x] Para finalizar una evaluación, el usuario debe confirmar los puntajes ingresados.
+43. [x] Si un usuario no está de acuerdo con los puntajes ingresados, debe poder actualizar los puntajes ingresados.
+44. [x] Solo el administrador puede indicar el tiempo que demoró una presentación.
+45. :x:1 El sistema debe indicar si corresponde aplicar un descuento a un equipo, en base a la duración mínima y máxima asociada a la rúbrica aplicada.
 
 ## Ficha de una rubrica:
 

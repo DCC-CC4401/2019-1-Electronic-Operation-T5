@@ -79,7 +79,7 @@ def update_evaluador(request):
         addForm = AddEvaluador()
         form = UpdateEvaluador(request.POST)
         if form.is_valid():
-            form.save()
+            form.save(request)
             return HttpResponseRedirect('evaluadores')
     addForm = AddEvaluador()
     form = UpdateEvaluador()

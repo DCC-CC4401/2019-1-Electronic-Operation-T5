@@ -20,7 +20,7 @@ class UpdateEvaluador(forms.ModelForm):
         model = Evaluador
         fields = ['ID','nombre','apellido','correo']
 
-    def save(self, *args, **kwargs):
+    def save(self, request, *args, **kwargs):
         # obtener evaluador
         id = int(self.cleaned_data['ID'])
         evaluador = Evaluador.objects.get(pk=id)
@@ -36,6 +36,7 @@ class UpdateEvaluador(forms.ModelForm):
             user.email = self.cleaned_data['correo']
             user.save()
         except IntegrityError:
+            messages.warning(request, 'Este correo le pertenece a otro usuario')
             return HttpResponseRedirect('..')
 
         # actualizar informacion database

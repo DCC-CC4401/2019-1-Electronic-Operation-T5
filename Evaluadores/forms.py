@@ -1,5 +1,8 @@
 from django import forms
 from Evaluadores.models import *
+from django.db import IntegrityError
+from django.http import HttpResponseRedirect
+from django.contrib import messages
 
 
 class AddEvaluador(forms.ModelForm):
@@ -25,18 +28,23 @@ class UpdateEvaluador(forms.ModelForm):
         username = evaluador.correo
         user = User.objects.get(username=username)
 
+        try:
+            # actualizar informacion de usuario
+            user.username = self.cleaned_data['correo']
+            user.first_name = self.cleaned_data['nombre']
+            user.last_name = self.cleaned_data['apellido']
+            user.email = self.cleaned_data['correo']
+            user.save()
+        except IntegrityError:
+            return HttpResponseRedirect('..')
+
         # actualizar informacion database
-        evaluador.nombre = self.cleaned_data['nombre']
-        evaluador.apellido = self.cleaned_data['apellido']
-        evaluador.correo  = self.cleaned_data['correo']
+        evaluador.nombre = user.first_name
+        evaluador.apellido = user.last_name
+        evaluador.correo  = user.email
         evaluador.update()
 
-        # actualizar informacion de usuario
-        user.username = evaluador.correo
-        user.first_name = evaluador.nombre
-        user.last_name = evaluador.apellido
-        user.email = evaluador.correo
-        user.save()
+        
 
 
 class AddProfesor(forms.ModelForm):
